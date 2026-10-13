@@ -16,12 +16,11 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 Before / at the meeting on **26 Oct, 09:00 (Discord)**:
 1. Check Canvas: group registration done? Deadline? Is a single Ebusiness student allowed?
 2. Find out who the PO contact at EIER AS is, and ask for access to example project data.
-3. At the meeting: discuss directions (see `Timeline.md` P1 step 3), then agree on user-research plan, DoD draft owner, risk register owner, and Scrumwise setup owner.
+3. Run the meeting from the proposed agenda: `docs/meetings/02-2026-10-26-agenda.md`.
 4. Copy the meeting minutes into `docs/meetings/02-...md` afterwards.
 
 ## Open questions
 
-- What does "Vi går med 1-5, bytter ved behov" in meeting 01 mean? (Rotation? Sprint length? A scale?)
 - Date of meeting 01.
 - Where will product code live?
 

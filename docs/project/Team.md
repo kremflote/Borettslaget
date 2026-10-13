@@ -24,6 +24,6 @@ Ensures everyone can work well; shields the team from outside noise; enables col
 ## Working agreements
 
 - Daily stand-ups, digital or in person.
-- "Vi går med 1-5, bytter ved behov": meaning not recorded (open question in `docs/Status.md`).
+- **Story-point scale: 0–5** in Scrumwise (meeting 01: "Vi går med 1-5, bytter ved behov"; clarified by the user 2026-10-13 as 0–5, change if needed). Fits L2 p. 34, where 8 and 13 mean "split the item": anything larger than 5 gets split.
 - Tools and where things live: see `Tools.md`.
 - Not yet agreed: Definition of Done, sprint capacity per person, meeting cadence for review/retro, decision rules, how absence/lateness is handled (an L4 slide 10 discussion question).
