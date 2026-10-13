@@ -1,0 +1,9 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Copyrighted textbook: keep local only (repo is public)
+sources/Essential_Scrum_Rubin.pdf
+
+# Office lock files
+~$*
