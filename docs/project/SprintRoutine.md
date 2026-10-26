@@ -7,7 +7,7 @@
 
 1. Agree on the project goal.
 2. Agree on product ideas (see `Ideas.md`).
-3. Agree on a Definition of Done.
+3. Agree on a Definition of Done (applies to all backlog items), and write acceptance criteria per item. Wording agreed by the user 2026-10-26; the Drive author will update the Drive document.
 
 ## Week shape
 
