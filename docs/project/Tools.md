@@ -16,7 +16,7 @@ Scrumwise is not readable by agents directly. Export to CSV and place it in `exp
 
 ## Meeting minutes
 
-The Scrum Master writes minutes in Drive. Meeting 02 decided "Bruker drive for møterefs, ikke git": Drive is where minutes are written and kept. Copies in `docs/meetings/NN-<short-title>.md` are made only when someone brings them to an agent, so agents can see decisions. Drive links are not copied, because the repo is public. Retrospective minutes are a course deliverable (L4 slide 45).
+The Scrum Master writes minutes in Drive. Meeting 02 decided "Bruker drive for møterefs, ikke git": the group writes and keeps minutes on Drive. Marius Kristensen copies them by hand into `docs/meetings/NN-<short-title>.md` so agents can see decisions (confirmed by the user, 2026-10-26). Drive links are not copied, because the repo is public. Retrospective minutes are a course deliverable (L4 slide 45).
 
 ## User research
 

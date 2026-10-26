@@ -8,9 +8,9 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 - Group of 6; SM = Marius Ellingsen. See `docs/project/Team.md`.
 - PO: unknown. Peder is contacting EIER AS / the course lead on 26 Oct. If they can't provide one, the group or Claude acts as PO (meeting 02).
 - Case: Boligvelgeren. No direction chosen yet. One idea so far (Marius E, touches all three case directions): `docs/project/Ideas.md`.
-- User research has started. Guide: `docs/research/InterviewGuide.md`. First notes (Marius E, profiles only so far) are on Drive.
+- User research has started: everyone interviews ≥ 5 people. Guide: `docs/research/InterviewGuide.md`. Notes are on Drive, one document per member (only Marius E's so far, profiles only).
 - Draft sprint routine exists, not agreed: `docs/project/SprintRoutine.md`.
-- Minutes are kept on Drive (meeting 02); the repo copies are mirrors. Latest: `docs/meetings/02-second-meeting.md`.
+- Minutes are kept on Drive (meeting 02); Marius K copies them into the repo by hand. Latest: `docs/meetings/02-second-meeting.md`.
 - Still missing: Scrumwise backlog, DoD, risk register.
 
 ## Next steps
@@ -28,7 +28,7 @@ Still open from earlier: check Canvas group registration and the composition rul
 
 - Date of meeting 01.
 - Where will product code live?
-- Was question 19 of the suggested guide (permission to recontact for prototype testing) dropped on purpose? The Design Sprint (23–27 Nov) needs test users.
+- Who are the test users for the Design Sprint (23–27 Nov)? The guide intentionally doesn't ask interviewees to be recontacted.
 
 ## Known issues and gotchas
 
