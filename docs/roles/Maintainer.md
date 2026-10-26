@@ -17,6 +17,8 @@ Keeps the repo current when new material, minutes, decisions or exports arrive. 
 
 **Meeting minutes:** copy verbatim into `docs/meetings/NN-<title>.md` with date and author. Then update `docs/project/*` (roles, agreements, tools, case decisions), `Timeline.md` steps/status, and `Status.md`.
 
+**Interview notes:** raw notes go to `docs/research/raw/` (git-ignored). Commit only anonymised findings to `docs/research/`: no names, no exact job titles, nothing that identifies a person.
+
 **Phase change:** collapse the finished phase in `Timeline.md` to an outcome line, detail the next phases, rewrite `Status.md`.
 
 **Scrumwise export:** save to `exports/YYYY-MM-DD-scrumwise.csv`; summarise only what's asked; never treat it as more current than Scrumwise.

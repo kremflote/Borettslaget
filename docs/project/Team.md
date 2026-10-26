@@ -13,7 +13,7 @@ Job: who we are, our roles, and our working agreements. Source: user (2026-10-13
 | Kaspar | Cybersikkerhet | Developer (cybersec) |
 | Bendik | IT – Ebusiness | Developer (e-business) |
 
-- **Product Owner:** the company, EIER AS (contact person not yet known). See `Case.md`.
+- **Product Owner:** the company, EIER AS (contact person not yet known). See `Case.md`. Meeting 02: Peder contacts EIER / the course lead (emneansvarlig) on 26 Oct to ask what PO they can offer: help building the backlog, answering the team's objections, joining meetings, week-to-week availability, sprint review. If none is available, the group or Claude acts as PO. The group/Claude makes the initial backlog either way.
 - Group size 6 (course requires 6–8). Three programmes.
 - **Composition risk:** Bendik is the only Ebusiness student. L3 slide 34 says nobody may be alone from their programme; L1 p. 7 says preferably not. Status: unconfirmed with the course (see `docs/Status.md`).
 
@@ -25,5 +25,7 @@ Ensures everyone can work well; shields the team from outside noise; enables col
 
 - Daily stand-ups, digital or in person.
 - **Story-point scale: 0–5** in Scrumwise (meeting 01: "Vi går med 1-5, bytter ved behov"; clarified by the user 2026-10-13 as 0–5, change if needed). Fits L2 p. 34, where 8 and 13 mean "split the item": anything larger than 5 gets split.
+- Everyone learns Scrum basics by 30 Nov (meeting 02).
 - Tools and where things live: see `Tools.md`.
-- Not yet agreed: Definition of Done, sprint capacity per person, meeting cadence for review/retro, decision rules, how absence/lateness is handled (an L4 slide 10 discussion question).
+- Draft sprint routine (event days and timeboxes), not yet agreed: `SprintRoutine.md`.
+- Not yet agreed: Definition of Done, sprint capacity per person, decision rules, how absence/lateness is handled (an L4 slide 10 discussion question).

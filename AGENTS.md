@@ -19,7 +19,10 @@ This setup is LLM-agnostic: any assistant pointed at this repo should follow thi
 | `docs/project/Case.md` | Our case: EIER AS, the unit picker, expected delivery |
 | `docs/project/Team.md` | Members, programmes, roles, working agreements |
 | `docs/project/Tools.md` | Which tool holds what (Scrumwise, GitHub, Drive, Discord) |
-| `docs/meetings/` | Meeting minutes, copied verbatim |
+| `docs/project/Ideas.md` | Candidate solution ideas, before a direction is chosen |
+| `docs/project/SprintRoutine.md` | Draft: our sprint week and event timeboxes |
+| `docs/research/` | User research: interview guide, anonymised findings. `raw/` is git-ignored (personal data) |
+| `docs/meetings/` | Meeting minutes, copied verbatim (main copy on Drive) |
 | `docs/Timeline.md` | Course phases: goals, concrete steps, status |
 | `docs/Status.md` | Where we stand now and the next steps |
 | `docs/Suggestions.md` | Gaps and doc changes found along the way, and decisions |

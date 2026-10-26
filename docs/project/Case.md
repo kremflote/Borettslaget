@@ -16,10 +16,10 @@ Job: what our project is about and who it is for. Source ID **CASE**: original b
 
 ## Not yet known
 
-- PO: name and contact at EIER AS (or a delegated Kristiania assistant, per L1 p. 21).
+- PO: name and contact at EIER AS (or a delegated Kristiania assistant, per L1 p. 21). Being asked 26 Oct, see `Team.md`.
 - Access to real project data (units, prices, plans), existing platform, design system, or APIs.
 - Whether Frostbyte Group AS is involved with us.
-- Chosen direction (to be discussed 26 Oct, see `docs/Timeline.md`).
+- Chosen direction: not chosen at meeting 02. Ideas are collected in `Ideas.md`; user interviews run until 2 Nov (`docs/research/InterviewGuide.md`).
 
 ## Fit with our team [interp]
 

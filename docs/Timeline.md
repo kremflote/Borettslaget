@@ -27,10 +27,10 @@ Goal: enter the Design Sprint with a confirmed group, a reachable PO, a shared u
 
 Steps:
 1. **[req]** Register the group in Canvas before the October deadline; confirm the "nobody alone from their programme" rule for Bendik with the course (L1 pp. 7–9; L3 slide 34).
-2. **[req]** Identify the PO contact at EIER AS; agree how and how often to reach them (L1 p. 21; L3 slides 10–11).
-3. Discuss solution directions on 26 Oct (visual navigation / recommendations / AI assistant / other). Keep the decision open until user insight exists: Last Responsible Moment (L2 p. 20). Output: candidate directions + questions for users and the PO.
-4. Prepare user research: who to interview (buyers, possibly brokers/developers), interview guide, recruitment. The case expects learning from interviews and testing (CASE).
-5. Write a team agreement: meeting cadence, how to handle absence/lateness (L4 slide 10), decision rules, capacity per person per sprint week.
+2. **[req]** Identify the PO contact at EIER AS; agree how and how often to reach them (L1 p. 21; L3 slides 10–11). *In progress:* Peder contacts EIER / course lead 26 Oct; fallback is group or Claude as PO (meeting 02).
+3. Discuss solution directions. *Done 26 Oct:* no direction chosen; everyone adds ≥ 1 idea to `docs/project/Ideas.md` by 2 Nov. Keep the decision open until user insight exists: Last Responsible Moment (L2 p. 20).
+4. User research. The case expects learning from interviews and testing (CASE). *Guide done:* `docs/research/InterviewGuide.md`. Everyone interviews ≥ 5 people by **2 Nov**, documents them in the template and writes an individual summary; Claude then processes and visualises the data (meeting 02).
+5. Write a team agreement: meeting cadence, how to handle absence/lateness (L4 slide 10), decision rules, capacity per person per sprint week. Sprint routine draft: `docs/project/SprintRoutine.md`. Everyone learns Scrum basics by 30 Nov (meeting 02).
 6. Draft a **Definition of Done** for the increment (L2 pp. 10–11), separate from story acceptance criteria.
 7. Set up Scrumwise: project, team members, initial product backlog with epics from the case; practise estimating with planning poker (L2 pp. 35–36).
 8. **[req]** Start a **risk register** (risk assessment is assessed, L1 p. 10). First risks: no UX/design student, PO availability, composition rule, one-week sprints, Christmas exams overlap.
