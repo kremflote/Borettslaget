@@ -15,7 +15,7 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 
 ## Next steps
 
-By **2 Nov, 09:00 (Discord, meeting 03)**:
+By **2 Nov, 09:00 (Discord, meeting 03)**. Proposed walkthrough: `docs/meetings/03-2026-11-02-agenda.md`.
 1. Everyone: interview ≥ 5 people using the guide, document them in the template, and write an individual summary.
 2. Everyone: add ≥ 1 solution idea to the Drive idea document.
 3. Peder: report what PO EIER / the course lead can offer.
