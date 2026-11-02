@@ -7,7 +7,7 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 
 - Group of 6; SM = Marius Ellingsen. See `docs/project/Team.md`.
 - PO: unknown. Peder is contacting EIER AS / the course lead on 26 Oct. If they can't provide one, the group or Claude acts as PO (meeting 02).
-- Case: Boligvelgeren. No direction chosen yet. One idea so far (Marius E, touches all three case directions): `docs/project/Ideas.md`.
+- Case: Boligvelgeren. No direction chosen yet. One idea (Marius E) and a feature list so far: `docs/project/Ideas.md`. Draft proposal combining them with the research (concept, MoSCoW, plan per phase), not agreed: `docs/project/Proposal.md`.
 - User research round 1 processed (2 Nov): 21 interviews + 1 megler counted. Findings: `docs/research/Findings.md`. Draft målgrupper (Utforskeren, Sammenligneren, Familielogistikeren, Livsfase-skifteren): `docs/research/Malgrupper.md`. Neither is agreed by the group yet.
 - Draft sprint routine exists, not agreed: `docs/project/SprintRoutine.md`.
 - Minutes are kept on Drive (meeting 02); Marius K copies them into the repo by hand. Latest: `docs/meetings/02-second-meeting.md`.
@@ -19,7 +19,7 @@ By **2 Nov, 09:00 (Discord, meeting 03)**. Proposed walkthrough: `docs/meetings/
 1. Everyone: interview ≥ 5 people using the guide, document them in the template, and write an individual summary.
 2. Everyone: add ≥ 1 solution idea to the Drive idea document.
 3. Peder: report what PO EIER / the course lead can offer.
-4. Group: review the findings and målgrupper; agree or adjust the segments, and pick which ones the Design Sprint targets.
+4. Group: review the findings and målgrupper; agree or adjust the segments, and pick which ones the Design Sprint targets. Use the open questions in `docs/project/Proposal.md` (is 3D sun core or a "should"?).
 5. Everyone: learn Scrum basics by 30 Nov.
 
 Still open from earlier: check Canvas group registration and the composition rule for Bendik (`docs/Timeline.md` P1 step 1).
