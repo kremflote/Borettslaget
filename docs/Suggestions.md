@@ -49,3 +49,20 @@ Status values: OPEN | APPLIED | REJECTED | DEFERRED
 - Change: add the Drive notes on backlog items (size, user story, acceptance criteria).
 - Why: already covered by CourseReference section 6 [L1 pp. 26–30; L2 pp. 10–13, 33]. The "Blue String" user-story example comes from an unknown source outside the course material.
 - Decision: REJECTED; no new content. The Drive note stays on Drive.
+
+### S-006 [APPLIED] GAP
+
+- Found in: processing interview round 1, 2026-11-02
+- Target: raw interview files; `docs/research/raw/`
+- Change: raw interview files were in `sources/interviews/`, which is not git-ignored. Moved them to `docs/research/raw/interviews/` (git-ignored). Raw notes belong there, not in `sources/`.
+- Why: the files hold first names, ages and job titles, and the repo is public.
+- Decision: APPLIED 2026-11-02.
+
+### S-007 [OPEN] SPEC-AMBIGUITY
+
+- Found in: processing interview round 1, 2026-11-02
+- Target: `docs/research/Findings.md`; `docs/research/InterviewGuide.md`
+- Change: label every write-up as real or mock in its title, and keep mocks out of the shared folder (or in a `mock/` subfolder).
+- Why: 8 write-ups are marked mock, but several unmarked ones are very complete and alike. Claude can't tell real from mock, and the findings depend on it.
+- Decision:
+
