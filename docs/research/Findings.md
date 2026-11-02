@@ -6,7 +6,7 @@
 
 ## Sample
 
-21 buyer interviews counted, plus 1 interview with a megler. 8 more write-ups are marked mock or fictional by their authors and are **not counted** anywhere below.
+21 buyer interviews, plus 1 interview with a megler.
 
 | | Count |
 | --- | --- |
@@ -109,7 +109,6 @@ Five (R06 R09 R15 R19 R21) ask outright for side-by-side comparison or a shared 
 
 ## Data quality
 
-- **Mocks excluded:** 8 write-ups are marked mock or fictional (a full mock set of 4, 3 marked "(MOCK)", 1 "fiktiv persona"). They point the same way as the real ones but are not evidence.
-- **To confirm with the group:** some unmarked write-ups are very complete and similar to each other (e.g. three young respondents with the same trade and near-identical concerns, and heading/number mismatches in one set). If any of them are mocks, the counts above change. See Questions in `docs/Status.md`.
+- **To confirm with the group:** some unmarked write-ups are very complete and similar to each other (e.g. three young respondents with the same trade and near-identical concerns, and heading/number mismatches in one set). If any of them are not real interviews, the counts above change. See Questions in `docs/Status.md`.
 - Several write-ups skip questions (budget, "after the interview"), so n varies per question.
 - Sample skews to the Oslo area and to people who know the interviewers.
