@@ -112,3 +112,4 @@ Five (R06 R09 R15 R19 R21) ask outright for side-by-side comparison or a shared 
 - **To confirm with the group:** some unmarked write-ups are very complete and similar to each other (e.g. three young respondents with the same trade and near-identical concerns, and heading/number mismatches in one set). If any of them are not real interviews, the counts above change. See Questions in `docs/Status.md`.
 - Several write-ups skip questions (budget, "after the interview"), so n varies per question.
 - Sample skews to the Oslo area and to people who know the interviewers.
+- **Not the target group (group, 2026-11-24):** most respondents have not been looking for a unit in a new-build project. Weigh the rankings (e.g. solforhold 5.1) with that in mind; the group keeps sun as a core part of the solution (`docs/design-sprint/README.md`).

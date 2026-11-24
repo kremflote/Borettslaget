@@ -11,10 +11,10 @@ A clickable web app on fictional data. Runs in the browser, shareable as a link,
 ```mermaid
 flowchart LR
   subgraph Browser
-    UI[Screens<br/>Project · Building · Unit · Compare · Order · Min bolig]
+    UI[Screens<br/>Project · Building · Unit · Compare ·<br/>Interest · Pre-qualify · Checkout · Min bolig]
     State[(App state<br/>filter, favourites,<br/>comparison, order)]
     Sun[Sun model<br/>orientation + time → sun/shade]
-    Data[(project.json<br/>buildings, units,<br/>plans, tilvalg, timeline)]
+    Data[(project.json<br/>buildings, units, plans,<br/>tilvalg, timeline, salgsstart)]
   end
   UI <--> State
   UI --> Sun
@@ -27,8 +27,9 @@ flowchart LR
 | Building drawn in SVG (facade with tappable units) | Gives the cinema pattern without 3D cost; 3D can be an image at first |
 | Sun: SunCalc with the balcony's orientation, or a simple lookup | Answers "sun on the balcony at 15:30?" without a 3D model |
 | Floor plans as SVG | Allows furnishing variants and dimensions |
-| Vipps, BankID and signing simulated | The test is about perceived trust, not integration |
-| Favourites and order in local storage | No server, no personal data leaves the browser (Findings: 0/20 share income or ID) |
+| Vipps, card, BankID, credit check and lånebevis upload simulated | The test is about perceived trust, not integration; no real financial data in a prototype |
+| A "salgsstart" switch | Lets one test session show both before and after the sale opens |
+| Favourites, interests and order in local storage | No server, no personal data leaves the browser |
 
 ## B. Target product
 
@@ -42,26 +43,30 @@ flowchart TB
   end
   subgraph API
     Proj[Projects and units]
+    Int[Interest and pre-qualification]
     Ord[Orders and tilvalg]
     Doc[Documents and contracts]
     Not[Notifications]
     Viz[3D and sun data]
   end
   subgraph External
-    Vipps[Vipps payment]
+    Vipps[Vipps / card payment]
+    Credit[Credit check provider]
     Sign[BankID signing]
     CRM[Developer CRM]
   end
   DB[(Database)]
   Files[(File storage<br/>plans, 3D, PDF)]
   Ads --> Web
-  Web --> Proj & Ord & Viz
+  Web --> Proj & Int & Ord & Viz
+  Int --> Credit
+  Int --> Files
   App --> Doc & Ord & Not
-  Admin --> Proj & Not
+  Admin --> Proj & Int & Not
   Ord --> Vipps
   Doc --> Sign
   Ord --> CRM
-  Proj & Ord & Doc --> DB
+  Proj & Int & Ord & Doc --> DB
   Doc & Viz --> Files
 ```
 
@@ -76,6 +81,7 @@ classDiagram
     +address
     +status
     +moveInEstimate
+    +salesStart
   }
   class Building {
     +name
@@ -105,6 +111,15 @@ classDiagram
   class Buyer {
     +id
   }
+  class Interest {
+    +createdAt
+  }
+  class PreQualification {
+    +consentSalaryInfo
+    +consentCreditCheck
+    +loanProofFile
+    +status
+  }
   class Order {
     +status
     +deposit
@@ -119,6 +134,9 @@ classDiagram
   Unit "1" --> "*" FloorPlan
   Project "1" --> "*" Tilvalg
   Project "1" --> "*" ProjectUpdate
+  Buyer "1" --> "*" Interest
+  Interest "*" --> "1" Unit
+  Buyer "1" --> "0..1" PreQualification
   Buyer "1" --> "*" Order
   Order "*" --> "1" Unit
   Order "*" --> "*" Tilvalg
@@ -128,5 +146,5 @@ classDiagram
 
 1. **One source for unit data:** units, plans and 3D come from the same data, so status and prices never disagree (Findings theme 13: status out of date, 4/21).
 2. **Real-time status:** two buyers can't reserve the same unit.
-3. **Privacy by default:** no income, equity or ID number collected for recommendations (Findings); cyber students can review the order flow's data handling.
+3. **Privacy by consent:** salary info, credit check and lånebevis are collected only if the buyer opts in to pre-qualify (decision 24 Nov), only for the checkout, and never shown to the megler or used for recommendations. Round-1 interviewees were unwilling to share income (0/20, `docs/research/Findings.md`), so the consent step needs testing. Cyber students can review this data flow (GDPR, storage, deletion).
 4. **Everything the buyer chose and signed in one place** ("Min bolig").

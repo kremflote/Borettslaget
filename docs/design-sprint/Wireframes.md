@@ -21,12 +21,15 @@ flowchart LR
   B -->|Se leilighet| C[4 Leilighet<br/>plan · sol · utsikt · økonomi]
   C -->|Legg til i sammenligning| D[5 Sammenlign]
   B -->|Sammenlign topp 3| D
-  D -->|Velg denne| E[6a Tilvalg]
-  C -->|Velg denne| E
-  E --> F[6b Oppsummering og depositum]
-  F -->|Betal med Vipps| G[6c Kvittering]
-  G --> H[7 Min bolig<br/>dokumenter · fremdrift · endringer]
-  C -->|Meld interesse| I[Interesse registrert]
+  C -->|Meld interesse| I[6a Interesse registrert]
+  D -->|Meld interesse| I
+  I -->|Valgfritt| P[6b Forhåndsgodkjenning<br/>samtykke + lånebevis]
+  I --> H[7 Min bolig]
+  P --> H
+  H -->|Salgsstart, forhåndsgodkjent| E[6c Tilvalg]
+  E --> F[6d Oppsummering og depositum]
+  F -->|Vipps / kort| G[6e Kvittering]
+  G --> H
 ```
 
 ## Shared frame (desktop)
@@ -52,6 +55,8 @@ flowchart LR
 │ balkonger              │ 10 % egenkapital      │ T-bane, butikk, park  │
 └───────────────────────┴──────────────────────┴───────────────────────┘
 ```
+
+2D/3D toggle (Should, decided 24 Nov): **2D** = top-down map view (Google Maps style) with nearby facilities; **3D** = Google Earth-style view with sun lines in the sky.
 
 ## 3 Building view with filter
 
@@ -86,7 +91,7 @@ Answers the board's "Toolbar på høyresiden?" with: filters left, results right
 │ 06 ─────────●────── 23   15:30       │ (selveier: 780 000)           │
 │ ☀ Full sol på balkongen nå          │                               │
 │ ▁▂▅█████▇▅▂▁  7,5 soltimer i dag    │ [♡] [⇄ Sammenlign]            │
-│                                      │ [ Velg denne ] [Meld interesse]│
+│                                      │ [  Meld interesse  ]          │
 └──────────────────────────────────────┴───────────────────────────────┘
 ```
 
@@ -111,7 +116,23 @@ The tabs answer "hvordan kommer bruker til plantegning fra 3d viewet?". [suggest
   «4C gir 1,5 t mer sol per dag for 400 000 mer enn 3A»
 ```
 
-## 6 Order flow (Tesla-inspired)
+## 6a–b Register interest and optional pre-qualification
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│ ✓ Interesse registrert for 4C og 3A                                  │
+│ Salgsstart: 15. januar 2027. Vi varsler deg.                         │
+│                                                                      │
+│ Vil du være klar til å kjøpe med én gang ved salgsstart? (valgfritt) │
+│ ☐ Jeg samtykker til innhenting av lønnsinfo og kredittsjekk          │
+│ [ Last opp lånebevis ]  finansieringsbevis.pdf ✓                     │
+│ [ Bli forhåndsgodkjent ]            [ Hopp over ]                    │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+## 6c–e Quick checkout at salgsstart (Tesla-inspired)
+
+Shown only after salgsstart, for pre-qualified users. In the prototype a "salgsstart" switch opens it.
 
 ```
 ┌──────────────────────────────────────┬───────────────────────────────┐
@@ -120,19 +141,20 @@ The tabs answer "hvordan kommer bruker til plantegning fra 3d viewet?". [suggest
 │ Gulv     ● Lys eik   ○ Mørk +18 000  │ Kjøkken eik         +45 000   │
 │ Bad      ○ Standard  ● Flis +22 000  │ Bad flis            +22 000   │
 │ Ekstra   ☐ Sportsbod     +60 000     │ Totalt            5 267 000   │
-│                                      │ Depositum nå         10 000   │
-│                                      │ Forventet innflytting Q3 2028 │
-│                                      │ [ Bestill og betal med Vipps ]│
+│                                      │ Spart meglergebyr   50 000    │
+│                                      │ Til forfall i dag    10 000   │
+│                                      │ Estimert levering Q1 2028     │
+│                                      │ [ Bestill med Vipps ]         │
+│                                      │ [ Bestill med kort  ]         │
 └──────────────────────────────────────┴───────────────────────────────┘
-→ Vipps (simulated) → Receipt: «Leilighet 4C er reservert til deg.
-  Kontrakt og dokumenter ligger i Min bolig.»
+→ Receipt: «Leilighet 4C er reservert til deg. Kontrakt og dokumenter ligger i Min bolig.»
 ```
 
 ## 7 Min bolig (for Q5)
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│ Min bolig · 4C                                                       │
+│ Min bolig · Interesse: 4C, 3A · Forhåndsgodkjent ✓ · Salgsstart 15.01│
 │ ⚠ Endring 12.03.2027: Innflytting flyttet fra Q3 til Q4 2028. Hvorfor?│
 │ Fremdrift: ●──●──●──○──○  Grunnarbeid · Råbygg · Tett bygg · Innflytt │
 │ Dokumenter: Kontrakt (signer) · Leveransebeskrivelse · Tilvalg        │

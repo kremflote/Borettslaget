@@ -47,7 +47,7 @@ Other notes on the matrix: "Velger ønsket prosjekt og får oversikt over bolige
 
 ## Final storyboard (6 cells)
 
-Initials at the top of the cells show who owns which cell (KN, MK, BN, PN, ME, ME); the board doesn't make the cell mapping certain, so it isn't repeated here.
+The group confirmed on 24 Nov that the storyboard is the flow they see for the portal to begin with. Initials show the cell owners, left to right: KN, MK, BN, PN, ME, ME (from a screenshot of the storyboard shared by Marius E, 24 Nov).
 
 | # | Cell [interp title] | Board content |
 | --- | --- | --- |
@@ -59,5 +59,18 @@ Initials at the top of the cells show who owns which cell (KN, MK, BN, PN, ME, M
 | 6 | **Order (Tesla flow)** | "Bruker velger en leilighet, legger til tilvalg, trykker bestill, betaler depositum med vipps og får alt av papirer og kontrakt i Boligvelger-Appen". "Ordreflyt inspirert av Tesla". Alternative: "Brukeren kan registrere interesse på 1 eller flere boliger". "For mer informasjon kan du se i boligportalen til leilighetene". |
 
 Linking buttons (green on the storyboard, per the method): "Se leilighet", "Knapp for å legge til i sammenligning", "3D/2D view knapp", bestill.
+
+## Details visible in the storyboard screenshot (24 Nov)
+
+Not in the CSV export; read from the sketches and screenshots in the cells:
+
+- **KN (1):** Finn-style project ad; a unit card ("L05", antall rom, soverom, bod, price) on a 3D site view; "Til salgs" label.
+- **MK (2):** aerial 3D view of the site with labelled buildings and points of interest; a phone mock-up with the building, a unit list (name, price, rooms) and a "Registrer interesse" button; hand-drawn 2D map sketches of the area.
+- **BN (3):** phone mock-ups with a unit list and a filter panel (pris, BRA, antall rom, etasje, vis prosjekt, ferdigstillelse, parkering); the building as black squares with available units 4c, 3a, 2b in white.
+- **PN (4):** 360° balcony panorama; sun-path diagram of a house ("10. mai"); room render with the sun's arc and times (KL 0600, 1530, 2300); a phone view with sun lines in the sky; furnished floor plan.
+- **ME (5):** hand sketches of a comparison with megler fee and "Sparer 200.000"; a Tesla-style "Sammenlign" table; wireframe "H401 vs H303" with price, m², price per m², bedrooms, "Sol: 60% av dagen", 1/4 furnishing options with arrows, "Valgt som fav", "Totalpris: 3.500.000, Spart 50.000kr på meglergebyr".
+- **ME (6):** Tesla-style summary: list of add-ons with prices, "Estimert levering: Q1 2027", price breakdown (kjøpspris, til forfall i dag), buttons "Bestill med kort" and "Bestill med Vipps"; unit page with "Meld interesse" and "Kjøp" buttons.
+
+**[interp]** "Besparelse" on the board most likely means megler fees saved by buying directly (open question in `README.md`).
 
 **[interp] Gap against the chosen sprint questions:** no cell covers Q5 (keeping buyers updated through a changing project). `Priorities.md` suggests a small "Min bolig" step after cell 6.

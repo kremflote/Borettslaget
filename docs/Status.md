@@ -6,29 +6,29 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 ## Current state
 
 - Group of 6; SM = Marius Ellingsen. See `docs/project/Team.md`.
-- **Design Sprint days 1–2 done.** Concept: **"Best of both worlds"**: building view → filter to top 3 → sun/view/plan per unit → compare → Tesla-style order with Vipps deposit. Overview: `docs/design-sprint/README.md`.
+- **Design Sprint days 1–2 done.** Concept: **"Best of both worlds"**: building view → filter to top 3 → sun/view/plan per unit → compare → **meld interesse**; optional pre-qualification unlocks a Tesla-style quick checkout at salgsstart. The storyboard is the initial portal flow. Overview: `docs/design-sprint/README.md`.
 - Sprint questions chosen by the decider: no tutorial needed (Q3), as easy as buying a Tesla (Q1), keep buyers updated through a changing project (Q5). `docs/design-sprint/Goals.md`.
-- Decision 24 Nov (Marius E): the prototype tests **direct purchase**, not ranking by ansiennitet.
-- Drafts by Claude, not agreed: prototype scope and day-4 test plan (`docs/design-sprint/Priorities.md`), wireframes (`docs/design-sprint/Wireframes.md`), models (`docs/design-sprint/Models.md`), architecture (`docs/project/Architecture.md`).
-- The sprint result conflicts in places with interview round 1 and the case (sun's weight, purchase vs "meld interesse", loan check): table in `docs/design-sprint/README.md`.
+- Decisions 24 Nov (Marius E): direct purchase, not ansiennitet; interest first, checkout only at salgsstart for voluntarily pre-qualified users (consent to salary info + credit check, lånebevis upload); sun stays core because round-1 interviewees were mostly not new-build seekers; Should/Could/Not now set in `docs/design-sprint/Priorities.md`.
+- Drafts by Claude, not agreed: Must list and day-4 test plan (`docs/design-sprint/Priorities.md`), wireframes (`docs/design-sprint/Wireframes.md`), models (`docs/design-sprint/Models.md`), architecture (`docs/project/Architecture.md`).
+- Remaining conflict: pre-qualification asks for income data that round-1 interviewees would not share (C3 in `docs/design-sprint/README.md`); test it with target users.
 - Earlier drafts still stand as background: `docs/research/Findings.md`, `docs/research/Malgrupper.md`, `docs/project/Proposal.md`.
 - Not reported to the repo since P1: PO contact, DoD, risk register, Scrumwise backlog.
 
 ## Next steps
 
-1. Group: agree the prototype scope (`Priorities.md` Must 1–8) before building.
+1. Group: agree the Must list (`docs/design-sprint/Priorities.md` 1–10) before building.
 2. Day 3: build the prototype (React + TypeScript per `Architecture.md`, or Figma).
-3. Day 4: test with ~5 users against Q3, Q1, Q5; store anonymised results in `docs/research/`.
+3. Day 4: test with ~5 people who are actually looking at new-build projects, against Q3, Q1, Q5; store anonymised results in `docs/research/`.
 4. After the test: pick the direction, write Sprint 1 goal and stories in Scrumwise.
 5. Before Sprint 1 (30 Nov): DoD, risk register, team agreement (see `docs/Timeline.md` P1 outcome).
 
 ## Open questions
 
 - Which long-term goal did the decider choose? (suggestion in `Goals.md`)
-- What does "besparelse" mean for a buyer here (innskudd vs egenkapital, compared with what)?
+- Does "besparelse" mean saved megler fees ("Spart 50.000kr på meglergebyr" on the storyboard)?
 - Who are the day-4 test users?
 - Where will product code live?
-- Keep the raw Miro export in the repo? (`docs/Suggestions.md` S-009)
+- Keep the raw Miro CSV in the repo? (`docs/Suggestions.md` S-009)
 - Are all unmarked interview write-ups real? (S-007)
 
 ## Known issues and gotchas

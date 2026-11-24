@@ -30,7 +30,7 @@ Ended by date on 22 Nov. Outcome: case and team set up, interview round 1 proces
 Goal: **[req]** a Design Sprint result (assessed under result, L1 p. 10) that gives a tested direction for the unit picker (CASE). Method: the group's Miro board (Day 1 understand and define, Day 2 decide and storyboard, Day 3 prototype, Day 4 test). Output: `docs/design-sprint/README.md`.
 
 Steps:
-1. Days 1–2: long-term goal, sprint questions, HMWs, inspiration, sketches, decision, storyboard. *Done:* concept "Best of both worlds"; sprint questions Q3, Q1, Q5 chosen by the decider (`docs/design-sprint/Goals.md`); storyboard in `docs/design-sprint/Storyboard.md`. Sales model for the prototype = direct purchase (decision 24 Nov).
+1. Days 1–2: long-term goal, sprint questions, HMWs, inspiration, sketches, decision, storyboard. *Done:* concept "Best of both worlds"; sprint questions Q3, Q1, Q5 chosen by the decider (`docs/design-sprint/Goals.md`); storyboard in `docs/design-sprint/Storyboard.md`. Decisions 24 Nov: register interest is the main next step; optional pre-qualification (consent + lånebevis) unlocks quick checkout at salgsstart; sun stays core; Should/Could/Not now set (`docs/design-sprint/README.md`).
 2. Day 3: build the prototype from the storyboard. Scope [suggestion]: `docs/design-sprint/Priorities.md`; layout: `docs/design-sprint/Wireframes.md`; stack: `docs/project/Architecture.md`.
 3. Day 4: test with ~5 users against Q3, Q1, Q5 (test plan in `Priorities.md`). Store anonymised results in `docs/research/`.
 4. After the test: decide the direction for Sprints 1–3 and turn it into epics/stories in Scrumwise.
@@ -44,7 +44,7 @@ Each sprint **[req, process]**: sprint planning (goal + sprint backlog, L2 pp. 2
 
 ### P4: Sprint 2, 7–11 Dec [PLANNED]
 
-Goal: next increment; apply retro actions from Sprint 1. [suggestion] Sprint goal: *"The buyer can order and follow the project"* (Tesla-style order flow, Min bolig with updates, Q1 and Q5), plus test round 2.
+Goal: next increment; apply retro actions from Sprint 1. [suggestion] Sprint goal: *"The buyer can register interest and be ready at salgsstart"* (interest, optional pre-qualification, quick checkout at salgsstart, Min bolig with updates; Q1 and Q5), plus test round 2.
 
 ### P5: Sprint 3 + submission, 14–18 Dec [PLANNED]
 

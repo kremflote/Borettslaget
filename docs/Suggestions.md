@@ -82,4 +82,4 @@ Status values: OPEN | APPLIED | REJECTED | DEFERRED
 - Target: repo
 - Change: decide whether the raw Miro export (CSV 35 KB, PDF 5 MB) goes in the repo, e.g. `sources/design-sprint/`.
 - Why: it is the source for `docs/design-sprint/`. The CSV holds only sticky-note text and member initials; the PDF holds template stock photos and a photo of people at a whiteboard, which may not be ours to publish in a public repo. Not committed for now.
-- Decision:
+- Decision: PDF not committed (group, 24 Nov: the icebreaker section with member photos isn't needed). CSV still open.
