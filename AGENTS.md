@@ -22,6 +22,8 @@ This setup is LLM-agnostic: any assistant pointed at this repo should follow thi
 | `docs/project/Ideas.md` | Candidate solution ideas and feature wishes, before a direction is chosen |
 | `docs/project/Proposal.md` | Draft concept, MoSCoW and project plan from idea 1 + research (not agreed) |
 | `docs/project/SprintRoutine.md` | Draft: our sprint week and event timeboxes |
+| `docs/project/Architecture.md` | Draft: prototype and target architecture, domain model |
+| `docs/design-sprint/` | Design Sprint output: goals, sprint questions, HMWs, storyboard, prototype scope, wireframes, models. Start at its `README.md` |
 | `docs/research/` | User research: interview guide, anonymised findings. `raw/` is git-ignored (personal data) |
 | `docs/meetings/` | Meeting minutes, copied verbatim (main copy on Drive) |
 | `docs/Timeline.md` | Course phases: goals, concrete steps, status |

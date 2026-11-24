@@ -13,7 +13,7 @@ Status values: PLANNED | IN PROGRESS | DONE | DROPPED
 
 ## Current phase
 
-P1: Pre-project preparation
+P2: Design Sprint
 
 ## Phases
 
@@ -21,37 +21,30 @@ P1: Pre-project preparation
 
 Outcome: group of 6 formed, case Boligvelgeren (EIER AS) chosen, SM = Marius Ellingsen, tools chosen (Scrumwise, GitHub, Drive, Discord), daily stand-ups agreed. Ref: `docs/meetings/01-first-meeting.md`. Loose end: group registration and the composition rule, carried into P1.
 
-### P1: Pre-project preparation, now → 22 Nov [IN PROGRESS]
+### P1: Pre-project preparation [DONE]
 
-Goal: enter the Design Sprint with a confirmed group, a reachable PO, a shared understanding of the case, and a working Scrum setup.
+Ended by date on 22 Nov. Outcome: case and team set up, interview round 1 processed (`docs/research/Findings.md`, draft `docs/research/Malgrupper.md`), draft proposal (`docs/project/Proposal.md`). Not reported to the repo: PO contact, Canvas registration/composition rule, DoD, team agreement, Scrumwise backlog, risk register, evidence log. These carry into P2–P3; check them at the start of Sprint 1.
+
+### P2: Design Sprint, 23–27 Nov [IN PROGRESS]
+
+Goal: **[req]** a Design Sprint result (assessed under result, L1 p. 10) that gives a tested direction for the unit picker (CASE). Method: the group's Miro board (Day 1 understand and define, Day 2 decide and storyboard, Day 3 prototype, Day 4 test). Output: `docs/design-sprint/README.md`.
 
 Steps:
-1. **[req]** Register the group in Canvas before the October deadline; confirm the "nobody alone from their programme" rule for Bendik with the course (L1 pp. 7–9; L3 slide 34).
-2. **[req]** Identify the PO contact at EIER AS; agree how and how often to reach them (L1 p. 21; L3 slides 10–11). *In progress:* Peder contacts EIER / course lead 26 Oct; fallback is group or Claude as PO (meeting 02).
-3. Discuss solution directions. *Done 26 Oct:* no direction chosen; everyone adds ≥ 1 idea to `docs/project/Ideas.md` by 2 Nov. Keep the decision open until user insight exists: Last Responsible Moment (L2 p. 20).
-4. User research. The case expects learning from interviews and testing (CASE). *Guide done:* `docs/research/InterviewGuide.md`. Everyone interviews ≥ 5 people by **2 Nov**, documents them in the template and writes an individual summary; Claude then processes and visualises the data (meeting 02). *Round 1 processed 2 Nov:* 21 interviews counted, findings in `docs/research/Findings.md`, draft segments in `docs/research/Malgrupper.md`. Open: confirm the unmarked write-ups are real, and agree the målgrupper.
-5. Write a team agreement: meeting cadence, how to handle absence/lateness (L4 slide 10), decision rules, capacity per person per sprint week. Sprint routine draft: `docs/project/SprintRoutine.md`. Everyone learns Scrum basics by 30 Nov (meeting 02).
-6. Draft a **Definition of Done** for the increment (L2 pp. 10–11), separate from story acceptance criteria.
-7. Set up Scrumwise: project, team members, initial product backlog with epics from the case; practise estimating with planning poker (L2 pp. 35–36).
-8. **[req]** Start a **risk register** (risk assessment is assessed, L1 p. 10). First risks: no UX/design student, PO availability, composition rule, one-week sprints, Christmas exams overlap.
-9. Decide where product code lives (separate repo?) and the prototype stack (Figma and/or frontend).
-10. Start an evidence log for reflection notes: decisions, obstacles, feedback, changes (L1 p. 10).
-11. Watch for course material on the Design Sprint method and exam requirements; add it to `sources/` when it arrives.
+1. Days 1–2: long-term goal, sprint questions, HMWs, inspiration, sketches, decision, storyboard. *Done:* concept "Best of both worlds"; sprint questions Q3, Q1, Q5 chosen by the decider (`docs/design-sprint/Goals.md`); storyboard in `docs/design-sprint/Storyboard.md`. Sales model for the prototype = direct purchase (decision 24 Nov).
+2. Day 3: build the prototype from the storyboard. Scope [suggestion]: `docs/design-sprint/Priorities.md`; layout: `docs/design-sprint/Wireframes.md`; stack: `docs/project/Architecture.md`.
+3. Day 4: test with ~5 users against Q3, Q1, Q5 (test plan in `Priorities.md`). Store anonymised results in `docs/research/`.
+4. After the test: decide the direction for Sprints 1–3 and turn it into epics/stories in Scrumwise.
 
-Done when: group registered and confirmed, PO contact established, DoD draft and team agreement exist, Scrumwise backlog started, risk register started, Design Sprint plan known.
-
-### P2: Design Sprint, 23–27 Nov [PLANNED]
-
-Goal: **[req]** a Design Sprint result (assessed under result, L1 p. 10), which per the case should give a tested direction for the unit picker. Method and outputs not yet supplied by the course; fill in when they arrive. Likely inputs: user insight from P1, candidate directions, PO priorities.
+Done when: prototype tested, results documented, direction and Sprint 1 goal agreed.
 
 ### P3: Sprint 1, 30 Nov–4 Dec [PLANNED]
 
-Goal: first increment of the prototype that meets the DoD.
+Goal: first increment of the prototype that meets the DoD. [suggestion] Sprint goal: *"The buyer can find, understand and compare units"* (building view, filter, unit page, comparison), fixed after the day-4 test.
 Each sprint **[req, process]**: sprint planning (goal + sprint backlog, L2 pp. 26–30) → daily stand-ups → keep the Scrumwise board and burndown updated daily (L4 slides 14–17) → sprint review with the PO (L4 slides 22–25) → retrospective with **submitted minutes** (L4 slide 45). Expect a flat first-week burndown; split large stories and start testing early (L4 slide 17 notes).
 
 ### P4: Sprint 2, 7–11 Dec [PLANNED]
 
-Goal: next increment; apply retro actions from Sprint 1.
+Goal: next increment; apply retro actions from Sprint 1. [suggestion] Sprint goal: *"The buyer can order and follow the project"* (Tesla-style order flow, Min bolig with updates, Q1 and Q5), plus test round 2.
 
 ### P5: Sprint 3 + submission, 14–18 Dec [PLANNED]
 

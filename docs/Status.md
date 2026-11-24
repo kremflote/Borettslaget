@@ -1,38 +1,37 @@
 # Status
 
-Last updated: 2026-11-02, interview round 1 processed, during P1 (pre-project preparation).
+Last updated: 2026-11-24, Design Sprint days 1–2 processed, during P2 (Design Sprint).
 Job: where the group stands **right now** and what to do next. Rewritten, not appended; keep under ~100 lines.
 
 ## Current state
 
 - Group of 6; SM = Marius Ellingsen. See `docs/project/Team.md`.
-- PO: unknown. Peder is contacting EIER AS / the course lead on 26 Oct. If they can't provide one, the group or Claude acts as PO (meeting 02).
-- Case: Boligvelgeren. No direction chosen yet. One idea (Marius E) and a feature list so far: `docs/project/Ideas.md`. Draft proposal combining them with the research (concept, MoSCoW, plan per phase), not agreed: `docs/project/Proposal.md`.
-- User research round 1 processed (2 Nov): 21 interviews + 1 megler counted. Findings: `docs/research/Findings.md`. Draft målgrupper (Utforskeren, Sammenligneren, Familielogistikeren, Livsfase-skifteren): `docs/research/Malgrupper.md`. Neither is agreed by the group yet.
-- Draft sprint routine exists, not agreed: `docs/project/SprintRoutine.md`.
-- Minutes are kept on Drive (meeting 02); Marius K copies them into the repo by hand. Latest: `docs/meetings/02-second-meeting.md`.
-- Still missing: Scrumwise backlog, DoD, risk register.
+- **Design Sprint days 1–2 done.** Concept: **"Best of both worlds"**: building view → filter to top 3 → sun/view/plan per unit → compare → Tesla-style order with Vipps deposit. Overview: `docs/design-sprint/README.md`.
+- Sprint questions chosen by the decider: no tutorial needed (Q3), as easy as buying a Tesla (Q1), keep buyers updated through a changing project (Q5). `docs/design-sprint/Goals.md`.
+- Decision 24 Nov (Marius E): the prototype tests **direct purchase**, not ranking by ansiennitet.
+- Drafts by Claude, not agreed: prototype scope and day-4 test plan (`docs/design-sprint/Priorities.md`), wireframes (`docs/design-sprint/Wireframes.md`), models (`docs/design-sprint/Models.md`), architecture (`docs/project/Architecture.md`).
+- The sprint result conflicts in places with interview round 1 and the case (sun's weight, purchase vs "meld interesse", loan check): table in `docs/design-sprint/README.md`.
+- Earlier drafts still stand as background: `docs/research/Findings.md`, `docs/research/Malgrupper.md`, `docs/project/Proposal.md`.
+- Not reported to the repo since P1: PO contact, DoD, risk register, Scrumwise backlog.
 
 ## Next steps
 
-By **2 Nov, 09:00 (Discord, meeting 03)**. Proposed walkthrough: `docs/meetings/03-2026-11-02-agenda.md`.
-1. Everyone: interview ≥ 5 people using the guide, document them in the template, and write an individual summary.
-2. Everyone: add ≥ 1 solution idea to the Drive idea document.
-3. Peder: report what PO EIER / the course lead can offer.
-4. Group: review the findings and målgrupper; agree or adjust the segments, and pick which ones the Design Sprint targets. Use the open questions in `docs/project/Proposal.md` (is 3D sun core or a "should"?).
-5. Everyone: learn Scrum basics by 30 Nov.
-
-Still open from earlier: check Canvas group registration and the composition rule for Bendik (`docs/Timeline.md` P1 step 1).
+1. Group: agree the prototype scope (`Priorities.md` Must 1–8) before building.
+2. Day 3: build the prototype (React + TypeScript per `Architecture.md`, or Figma).
+3. Day 4: test with ~5 users against Q3, Q1, Q5; store anonymised results in `docs/research/`.
+4. After the test: pick the direction, write Sprint 1 goal and stories in Scrumwise.
+5. Before Sprint 1 (30 Nov): DoD, risk register, team agreement (see `docs/Timeline.md` P1 outcome).
 
 ## Open questions
 
-- Date of meeting 01.
+- Which long-term goal did the decider choose? (suggestion in `Goals.md`)
+- What does "besparelse" mean for a buyer here (innskudd vs egenkapital, compared with what)?
+- Who are the day-4 test users?
 - Where will product code live?
-- Who are the test users for the Design Sprint (23–27 Nov)? The guide intentionally doesn't ask interviewees to be recontacted.
-
-- Are all unmarked interview write-ups real? Some are very complete and alike (see Data quality in `docs/research/Findings.md`). Counts change if any are not real interviews.
+- Keep the raw Miro export in the repo? (`docs/Suggestions.md` S-009)
+- Are all unmarked interview write-ups real? (S-007)
 
 ## Known issues and gotchas
 
 - Repo is public: the textbook PDF and `docs/research/raw/` are git-ignored. Drive links are not copied into the repo. Think before committing case material, Scrumwise exports, or personal data.
-- Design Sprint method and exam requirements are not in the supplied material yet.
+- The Design Sprint method comes from the group's Miro board, not from course material; exam requirements are still not supplied (S-001).

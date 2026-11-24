@@ -45,6 +45,9 @@ This matches the case's success criteria: find relevant units quickly, understan
 
 ## Technical sketch [outside the material]
 
+Expanded after the Design Sprint in `Architecture.md`. Differences between this proposal and the sprint result: `docs/design-sprint/Priorities.md`.
+
+
 - Frontend: React + TypeScript (Vite); react-three-fiber for 3D; SunCalc for sun position from the building's real orientation.
 - Data: a fictional project of ~30 units in static JSON (dimensions, prices, costs, orientation, bod/parking). No real EIER data yet (`Case.md`).
 - Backend: one serverless function holding the LLM key, answering from mock project documents (leveransebeskrivelse, price list) with citations.
