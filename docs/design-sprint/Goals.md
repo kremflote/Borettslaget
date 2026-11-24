@@ -50,6 +50,10 @@ Q2 ("all the information the user wonders about") was not chosen.
 
 **[interp]** Q3 and Q1 can be tested directly with the prototype. Q5 needs something in the flow to test against, e.g. a "Min bolig" page after the order with a project timeline and a simulated change notice ("Innflytting flyttet fra Q3 til Q4 2028"). See `Priorities.md`.
 
+### Product goal stated by the group (24 Nov)
+
+Remove the need for megler contact in the sales process: the buyer is 100% sure of the purchase and of choosing the right unit, and buys digitally without asking a megler. Closest board goal: G5; closest sprint question: Q6. Savings are shown as saved megler fees.
+
 ## Assumptions behind the questions [interp]
 
 | Pessimistic assumption | Question |

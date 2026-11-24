@@ -10,13 +10,14 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 - Sprint questions chosen by the decider: no tutorial needed (Q3), as easy as buying a Tesla (Q1), keep buyers updated through a changing project (Q5). `docs/design-sprint/Goals.md`.
 - Decisions 24 Nov (Marius E): direct purchase, not ansiennitet; interest first, checkout only at salgsstart for voluntarily pre-qualified users (consent to salary info + credit check, lånebevis upload); sun stays core because round-1 interviewees were mostly not new-build seekers; Should/Could/Not now set in `docs/design-sprint/Priorities.md`.
 - Drafts by Claude, not agreed: Must list and day-4 test plan (`docs/design-sprint/Priorities.md`), wireframes (`docs/design-sprint/Wireframes.md`), models (`docs/design-sprint/Models.md`), architecture (`docs/project/Architecture.md`).
+- Product goal (24 Nov): remove the need for megler contact; buyers should be sure enough to buy digitally. Savings = saved megler fees.
 - Remaining conflict: pre-qualification asks for income data that round-1 interviewees would not share (C3 in `docs/design-sprint/README.md`); test it with target users.
 - Earlier drafts still stand as background: `docs/research/Findings.md`, `docs/research/Malgrupper.md`, `docs/project/Proposal.md`.
 - Not reported to the repo since P1: PO contact, DoD, risk register, Scrumwise backlog.
 
 ## Next steps
 
-1. Group: agree the Must list (`docs/design-sprint/Priorities.md` 1–10) before building.
+1. Group: agree the Must list (`docs/design-sprint/Priorities.md` 1–10). The Should list is in scope (decided 24 Nov).
 2. Day 3: build the prototype (React + TypeScript per `Architecture.md`, or Figma).
 3. Day 4: test with ~5 people who are actually looking at new-build projects, against Q3, Q1, Q5; store anonymised results in `docs/research/`.
 4. After the test: pick the direction, write Sprint 1 goal and stories in Scrumwise.
@@ -25,7 +26,6 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 ## Open questions
 
 - Which long-term goal did the decider choose? (suggestion in `Goals.md`)
-- Does "besparelse" mean saved megler fees ("Spart 50.000kr på meglergebyr" on the storyboard)?
 - Who are the day-4 test users?
 - Where will product code live?
 - Keep the raw Miro CSV in the repo? (`docs/Suggestions.md` S-009)

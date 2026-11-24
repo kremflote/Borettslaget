@@ -57,10 +57,12 @@ All by Marius Ellingsen, 2026-11-24:
 4. **The storyboard is the initial portal flow.**
 5. **Scope:** Should = 2D/3D toggle, 4 fixed furnishing variants, favourites list. Could = real 3D with sun path. Not now = generated furnishing, advisor chat (later), "ready to move in" list. Details in `Priorities.md`.
 6. No group-member photos (icebreaker section not needed).
+7. **"Besparelse" = saved megler fees** (e.g. "Spart 50.000kr på meglergebyr").
+8. **Product goal:** remove the need for megler contact in the sales process. The solution should make the buyer 100% sure of the purchase and that they chose the right unit, so they can buy digitally without asking a megler. [interp] The case states the problem (buyers "må ringe megler for enkle spørsmål") but not removing the megler as a goal; this is the group's sharpening of it [CASE].
+9. **Everything on the Should list is built in the prototype.**
 
 ## Open questions for the group
 
 1. Which long-term goal did the decider choose? Suggestion in `Goals.md`.
-2. What does "besparelse" mean? The storyboard sketch shows "Spart 50.000kr på meglergebyr" (`Storyboard.md`), i.e. megler fees saved by buying directly [interp]. Confirm.
-3. Who tests on day 4, and how many? (`docs/Status.md` already asks.)
-4. Should the raw Miro CSV be kept in the repo? The PDF is not committed. (S-009)
+2. Who tests on day 4, and how many? (`docs/Status.md` already asks.)
+3. Should the raw Miro CSV be kept in the repo? The PDF is not committed. (S-009)

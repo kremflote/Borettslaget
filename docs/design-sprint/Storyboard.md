@@ -71,6 +71,6 @@ Not in the CSV export; read from the sketches and screenshots in the cells:
 - **ME (5):** hand sketches of a comparison with megler fee and "Sparer 200.000"; a Tesla-style "Sammenlign" table; wireframe "H401 vs H303" with price, m², price per m², bedrooms, "Sol: 60% av dagen", 1/4 furnishing options with arrows, "Valgt som fav", "Totalpris: 3.500.000, Spart 50.000kr på meglergebyr".
 - **ME (6):** Tesla-style summary: list of add-ons with prices, "Estimert levering: Q1 2027", price breakdown (kjøpspris, til forfall i dag), buttons "Bestill med kort" and "Bestill med Vipps"; unit page with "Meld interesse" and "Kjøp" buttons.
 
-**[interp]** "Besparelse" on the board most likely means megler fees saved by buying directly (open question in `README.md`).
+"Besparelse" on the board means megler fees saved by buying directly (confirmed by the group, 24 Nov).
 
 **[interp] Gap against the chosen sprint questions:** no cell covers Q5 (keeping buyers updated through a changing project). `Priorities.md` suggests a small "Min bolig" step after cell 6.

@@ -13,7 +13,7 @@
 | 1 | Project page: key facts, area map, one "Velg bolig" button | 1–2 | Q3 |
 | 2 | Building view: facade where each unit is a tappable shape, status in colour (ledig / reservert / solgt), cinema pattern | 3 | Q3 |
 | 3 | Filter (price, rooms, floor, balcony direction, size) → "Dine 3 beste treff" | 3 | Q3 |
-| 4 | Unit page: key facts, floor plan, price, felleskostnader, savings shown visually | 4 | Q3 |
+| 4 | Unit page: key facts, floor plan, price, felleskostnader, saved megler fee shown visually | 4 | Q3 |
 | 5 | Sun on the balcony: time-of-day slider (sun is a core part, decision 24 Nov) | 4 | Q3 |
 | 6 | Side-by-side comparison of 2–3 units, differences highlighted | 5 | Q3 |
 | 7 | **Meld interesse** on one or more units: the main next step before salgsstart | 6 | Q1, Q3 |
@@ -21,7 +21,7 @@
 | 9 | **Quick checkout at salgsstart** (Tesla-style) for pre-qualified users: tilvalg → summary → deposit with Vipps or card → receipt. In the prototype a "salgsstart" switch opens it | 6 | Q1 |
 | 10 | "Min bolig": registered interests, pre-qualification status, documents, project timeline and one simulated change notice | after 6 (new) | Q5 |
 
-### Should (decided 24 Nov)
+### Should (decided 24 Nov; all built in the prototype)
 
 - **2D/3D toggle** (3D can be a pre-rendered image in v1):
   - 2D = top-down map view (Google Maps style) showing nearby facilities.

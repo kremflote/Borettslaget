@@ -51,8 +51,8 @@ flowchart LR
 │  48 leiligheter · 2–4 rom · Fra 3,9 mill. · Innflytting 2028         │
 │  [  Velg bolig  ]   [ Se området ]                                   │
 ├───────────────────────┬──────────────────────┬───────────────────────┤
-│ ☀ Sol: vestvendte      │ 💰 Du trenger bare    │ 🗺 Kart: skole,        │
-│ balkonger              │ 10 % egenkapital      │ T-bane, butikk, park  │
+│ ☀ Sol: vestvendte      │ 💰 Kjøp digitalt og   │ 🗺 Kart: skole,        │
+│ balkonger              │ spar meglergebyr      │ T-bane, butikk, park  │
 └───────────────────────┴──────────────────────┴───────────────────────┘
 ```
 
@@ -86,9 +86,9 @@ Answers the board's "Toolbar på høyresiden?" with: filters left, results right
 │ ┌──────────────────────────────┐     │ Fellesgjeld   4 680 000       │
 │ │  FLOOR PLAN (dimensions)     │     │ Felleskost.   7 450 / mnd     │
 │ │  Møblering: ◀ 1 av 4 ▶       │     │ ───────────────────────────── │
-│ └──────────────────────────────┘     │ 💰 Egenkapital du trenger      │
-│ SOL PÅ BALKONGEN                     │ ██░░░░░░░░ 520 000            │
-│ 06 ─────────●────── 23   15:30       │ (selveier: 780 000)           │
+│ └──────────────────────────────┘     │ 💰 Spart meglergebyr   50 000 │
+│ SOL PÅ BALKONGEN                     │ Totalpris          5 200 000  │
+│ 06 ─────────●────── 23   15:30       │                               │
 │ ☀ Full sol på balkongen nå          │                               │
 │ ▁▂▅█████▇▅▂▁  7,5 soltimer i dag    │ [♡] [⇄ Sammenlign]            │
 │                                      │ [  Meld interesse  ]          │
