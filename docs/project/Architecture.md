@@ -2,7 +2,7 @@
 
 - Job: how the unit picker is built: (A) the prototype for the Design Sprint and sprints 1–3, and (B) a target picture for a real product.
 - **Status: [suggestion] by Claude, 2026-11-24. Not agreed by the group.** Extends the technical sketch in `Proposal.md` (same stack) with the Design Sprint result (`docs/design-sprint/README.md`). Technology choices are outside the course material.
-- Where product code lives is still open (`docs/Timeline.md` P1 step 9).
+- Product code lives in a separate repo: `mariusaellingsen/Boligvelger_prototypev1` (decided 24 Nov). Prototype v1 follows section A; desktop first (1440 px), mobile second (decided 24 Nov).
 
 ## A. Prototype
 

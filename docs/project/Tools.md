@@ -5,7 +5,7 @@ Job: which tool holds what, so nothing is recorded twice. Source: `docs/meetings
 | Tool | Holds | Notes |
 | --- | --- | --- |
 | **Scrumwise** | Product backlog, sprint backlogs, task board, burndown, Scrum documentation | Primary Scrum tool. Its use is assessed (L1 p. 10). Exports to CSV |
-| **GitHub** | Version control (assessed, L1 p. 10). This repo (`kremflote/Borettslaget`) = LLM context. Product code repo: not decided | Context repo is **public** |
+| **GitHub** | Version control (assessed, L1 p. 10). This repo (`kremflote/Borettslaget`) = LLM context. Product code: separate repo `mariusaellingsen/Boligvelger_prototypev1` (decided 24 Nov) | Context repo is **public** |
 | **Google Drive** | Meta documents, meeting minutes (main copy), course content folder, interview notes ("Relevante Docs") | Set up by Marius Ellingsen |
 | **Discord** | Meetings (e.g. 26 Oct, 09:00) | |
 | **This repo** | Course knowledge, case, team facts, timeline, current status, copies of minutes | See `AGENTS.md` |

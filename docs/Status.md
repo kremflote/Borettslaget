@@ -18,7 +18,7 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 ## Next steps
 
 1. Group: agree the Must list (`docs/design-sprint/Priorities.md` 1–10). The Should list is in scope (decided 24 Nov).
-2. Day 3: build the prototype (React + TypeScript per `Architecture.md`, or Figma).
+2. Day 3: review prototype v1 (desktop, React + TypeScript, built by Claude 24 Nov) in `mariusaellingsen/Boligvelger_prototypev1`; a Figma Make version is also being tried.
 3. Day 4: test with ~5 people who are actually looking at new-build projects, against Q3, Q1, Q5; store anonymised results in `docs/research/`.
 4. After the test: pick the direction, write Sprint 1 goal and stories in Scrumwise.
 5. Before Sprint 1 (30 Nov): DoD, risk register, team agreement (see `docs/Timeline.md` P1 outcome).
@@ -27,7 +27,6 @@ Job: where the group stands **right now** and what to do next. Rewritten, not ap
 
 - Which long-term goal did the decider choose? (suggestion in `Goals.md`)
 - Who are the day-4 test users?
-- Where will product code live?
 - Keep the raw Miro CSV in the repo? (`docs/Suggestions.md` S-009)
 - Are all unmarked interview write-ups real? (S-007)
 
